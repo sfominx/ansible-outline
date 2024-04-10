@@ -1,6 +1,5 @@
 - name: Install Python 3
-  yum:
+  ansible.builtin.apt:
     name:
-      - epel-release
       - python3
     state: present

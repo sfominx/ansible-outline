@@ -1,5 +1,5 @@
 ---
 - name: Install openssl
-  yum:
+  ansible.builtin.apt:
     name: openssl
     state: present

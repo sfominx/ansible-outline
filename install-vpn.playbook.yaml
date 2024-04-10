@@ -1,9 +1,9 @@
 ---
 - hosts: all
   roles:
-    - yum-utils
+    # - yum-utils
     - python
     - docker
     - openssl
-    - firewall
+    # - firewall
     - outline
